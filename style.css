@@ -1,0 +1,63 @@
+
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        /* Section Hero */
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 100px 0;
+        }
+        
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 5px solid white;
+        }
+        
+        /* Section projets */
+        .project-card {
+            transition: transform 0.3s;
+            height: 100%;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        /* Section compétences */
+        .skill-badge {
+            margin: 5px;
+            font-size: 1rem;
+        }
+        
+        /* Section contact */
+        .contact-section {
+            background-color: #f8f9fa;
+        }
+        
+        /* Animation pour le défilement fluide */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 60px 0;
+            }
+            
+            .profile-img {
+                width: 150px;
+                height: 150px;
+            }
+        }
