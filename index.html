@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Achile Assie Ekou - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS personnalisé -->
+      <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-code-slash me-2"></i>
+                <span>MonPortfolio</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projets">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#competences">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recompenses">Récompenses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil/Introduction -->
+    <section id="accueil" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                    <img src="Image1.jpg" alt="Photo de profil" class="profile-img rounded-circle">
+                </div>
+                <div class="col-lg-8 hero-content">
+                    <h1 class="hero-title">Emmanuel Achile Assie Ekou</h1>
+                    <p class="hero-subtitle">Étudiant en Baccalauréat en informatique appliquée</p>
+                    <p class="hero-description">Passionné par la cybersécurité, la sécurité informatique et le développement de solutions innovantes. Je me spécialise dans la création d'applications web modernes et la résolution de problèmes complexes.</p>
+                    <div class="d-flex flex-wrap">
+                        <a href="#projets" class="btn btn-primary btn-hero">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-outline-light btn-hero">Me contacter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            
+            <div class="row g-4">
+                <!-- Projet 1 -->
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <div id="carouselProject1" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselProject1" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#carouselProject1" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carouselProject1" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#carouselProject1" data-bs-slide-to="3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" class="d-block w-100" alt="Site web anime - capture 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" class="d-block w-100" alt="Site web anime - capture 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Capture d’écran 2025-11-15 122311.png" class="d-block w-100" alt="Site web anime - capture 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Capture d’écran 2025-11-15 122411.jpg" class="d-block w-100" alt="Site web anime - capture 4">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProject1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Site Web sur l'Univers des Animes</h5>
+                            <p class="card-text">Création d'un site internet dédié à l'univers des animes en utilisant HTML, CSS, Bootstrap pour rendre le site attractif et responsive. Le site présente des informations sur différents animes, des critiques et un système de notation.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary">HTML</span>
+                                <span class="badge bg-secondary">CSS</span>
+                                <span class="badge bg-success">Bootstrap</span>
+                                <span class="badge bg-info">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projet 2 -->
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <div id="carouselProject2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselProject2" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#carouselProject2" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carouselProject2" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#carouselProject2" data-bs-slide-to="3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" class="d-block w-100" alt="Jeu Timber - capture 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" class="d-block w-100" alt="Jeu Timber - capture 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Capture d’écran 2025-11-15 120545.png" class="d-block w-100" alt="Jeu Timber - capture 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="pro4.png" class="d-block w-100" alt="Jeu Timber - capture 4">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProject2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Jeu Vidéo Timber</h5>
+                            <p class="card-text">Développement d'un jeu vidéo appelé Timber en utilisant la bibliothèque SFML. Le jeu implémente des mécaniques de physique, un système de score et des effets visuels. Le joueur contrôle un bûcheron qui doit abattre des arbres en évitant les branches.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary">C++</span>
+                                <span class="badge bg-secondary">SFML</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projet 3 -->
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <div id="carouselProject3" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselProject3" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#carouselProject3" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carouselProject3" data-bs-slide-to="2"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" class="d-block w-100" alt="Cryptographie RSA - capture 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" class="d-block w-100" alt="Cryptographie RSA - capture 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="pro2.png" class="d-block w-100" alt="Cryptographie RSA - capture 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProject3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Chiffrement et Déchiffrement RSA</h5>
+                            <p class="card-text">Implémentation d'un système de chiffrement et déchiffrement utilisant l'algorithme RSA. Comprendre la création et la gestion des clés RSA, apprendre à chiffrer et déchiffrer des messages. Le projet inclut une interface utilisateur simple.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary">C++</span>
+                                <span class="badge bg-warning text-dark">Cryptographie</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            
+            <div class="row">
+                <!-- Langages de programmation -->
+                <div class="col-md-6 mb-5">
+                    <div class="skill-category">
+                        <h4>Langages de Programmation</h4>
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>JavaScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>C++</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Python</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Technologies et Frameworks -->
+                <div class="col-md-6 mb-5">
+                    <div class="skill-category">
+                        <h4>Technologies et Frameworks</h4>
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>React</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Bootstrap</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Node.js</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>MongoDB</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Badges de compétences -->
+            <div class="mt-5">
+                <h4 class="text-center mb-4">Autres Compétences</h4>
+                <div class="d-flex flex-wrap justify-content-center">
+                    <span class="badge bg-primary skill-badge">Git</span>
+                    <span class="badge bg-success skill-badge">MySQL</span>
+                    <span class="badge bg-danger skill-badge">Firebase</span>
+                    <span class="badge bg-info skill-badge">REST API</span>
+                    <span class="badge bg-dark skill-badge">Agile/Scrum</span>
+                    <span class="badge bg-secondary skill-badge">phpMyAdmin</span>
+                    <span class="badge bg-warning text-dark skill-badge">SFML</span>
+                    <span class="badge bg-primary skill-badge">Cybersécurité</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Réalisations et Récompenses -->
+    <section id="recompenses" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Mes Réalisations et Récompenses</h2>
+            
+            <div class="row">
+                <!-- Certification 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card award-card h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-award-fill award-icon"></i>
+                            <h5 class="card-title">Cisco CCNA</h5>
+                            <p class="card-text">Certification Cisco CCNA (Cisco Certified Network Associate) couvrant la configuration, le routage, la segmentation réseau avec VLAN, et bien plus.</p>
+                            <small class="text-muted">Obtenue en Avril 2022</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Certification 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card award-card h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-cloud-fill award-icon"></i>
+                            <h5 class="card-title">AWS Certified Cloud Practitioner</h5>
+                            <p class="card-text">Certification AWS Cloud Practitioner démontrant une compréhension globale des services cloud AWS, de l'architecture et des meilleures pratiques.</p>
+                            <small class="text-muted">Obtenue en Juin 2023</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Réalisation 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="alert alert-success h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-check-circle-fill me-3 fs-4"></i>
+                            <h5 class="alert-heading mb-0">Optimisation des Performances</h5>
+                        </div>
+                        <p class="mb-0">Réduction de 40% du temps de chargement d'une application web grâce à l'optimisation du code et l'implémentation de techniques de caching avancées.</p>
+                    </div>
+                </div>
+                
+                <!-- Réalisation 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="alert alert-info h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-shield-lock-fill me-3 fs-4"></i>
+                            <h5 class="alert-heading mb-0">Projet de Cryptographie</h5>
+                        </div>
+                        <p class="mb-0">Comprendre la création et la gestion des clés RSA. Apprendre à chiffrer et déchiffrer des messages. Vérifier l'intégrité et l'authenticité des documents via signature numérique.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label">Prénom</label>
+                                    <input type="text" class="form-control" id="firstName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Nom</label>
+                                    <input type="text" class="form-control" id="lastName" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Adresse email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Sujet</label>
+                                <input type="text" class="form-control" id="subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg px-5">Envoyer le message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Informations de contact -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h4 class="mb-4">Autres moyens de contact</h4>
+                        <div class="row justify-content-center">
+                            <div class="col-md-3 col-6 mb-4">
+                                <a href="mailto:emmanassie98@gmail.com" class="contact-link">
+                                    <i class="bi bi-envelope-fill contact-icon"></i>
+                                    <p>Email</p>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-6 mb-4">
+                                <a href="https://www.linkedin.com/in/emmanuel-ekou-a36aab145/" class="contact-link">
+                                    <i class="bi bi-linkedin contact-icon"></i>
+                                    <p>LinkedIn</p>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-6 mb-4">
+                                <a href="https://github.com/Emmanass/signed-commits" class="contact-link">
+                                    <i class="bi bi-github contact-icon"></i>
+                                    <p>GitHub</p>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-6 mb-4">
+                                <a href="tel:+15068893858" class="contact-link">
+                                    <i class="bi bi-telephone-fill contact-icon"></i>
+                                    <p>Téléphone</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 Emmanuel Achile Assie Ekou. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
